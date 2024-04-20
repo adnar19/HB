@@ -3,8 +3,7 @@ const dictionnaire = {
     "accueil": {
         fr: "Accueil",
         en: "Home",
-        it: "Home",
-        de: "Homepage"
+        ar: "الرئيسية",
     },
     "a propos": {
         fr: "A propos",
