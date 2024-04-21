@@ -2063,8 +2063,11 @@ ul.sociel_link li a {
 
 .padi {
   padding: 0px;
+  background: #e5E5E5;
 }
-
+.card{
+  border:none;
+}
 /** end map section **/
 
 /** footer section **/
@@ -2403,7 +2406,7 @@ ul.lik li a:hover {
 	border-radius: 20px;
 	overflow: hidden;
 	background-color: #fff;
-	height: 500px;
+	height: 640px;
 }
 .info-area {
 	padding: 0 20px 45px;
