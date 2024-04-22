@@ -1759,7 +1759,7 @@ ul.sociel_link li a {
   position: relative;
   padding-bottom: 8px;
 }
-.title h2:after {
+.title h2:after,.about_title h2:after {
   position: relative;
   content: "";
   top: 100%;
@@ -1775,6 +1775,18 @@ ul.sociel_link li a {
   font-size: 28px;
   line-height: 28px;
   margin-top: 20px;
+}
+
+.about_title h2 {
+  text-align: center;
+  font-size: 35px;
+  line-height: 50px;
+  color: #ff4400;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+  position: relative;
+  padding-bottom: 8px;
 }
 .black {
   font-weight: 500;
@@ -1810,6 +1822,12 @@ ul.sociel_link li a {
 .choose_bg .white_bg .for_box p {
   color: #0d0c0a;
   font-size: 17px;
+  line-height: 28px;
+}
+.about_text{
+  text-align: right;
+  color: #0d0c0a;
+  font-size: 20px;
   line-height: 28px;
 }
 
@@ -2507,6 +2525,10 @@ font-weight: 800;
   width: 100%;
   height: 60vh;
 }
+.about_section{
+  width: 100%;
+  height: 70vh;
+}
 
 @media (max-width: 991.98px) { 
   .slider_section{
@@ -2514,6 +2536,16 @@ font-weight: 800;
     height: 300px; 
     position: relative;
     overflow: hidden;
+  }
+  .about_section{
+    height: 700px;
+  }
+  .about_title h2{
+font-size: 24px;
+margin-bottom: 10px;
+  }
+  .about_text{
+    font-size: 18px;
   }
   .banner-hint{
   font-size: 40px;
@@ -2530,6 +2562,12 @@ font-weight: 800;
  @media (max-width: 575.98px) {
   .slider_section{
     height: 150px;
+  }
+  .about_section{
+    height: fit-content;
+  }
+  .about_text{
+    text-align: center;
   }
   .banner-hint{
     font-size: 20px;
