@@ -2487,11 +2487,21 @@ ul.lik li a:hover {
 
 .banner-hint{
 position: relative;
-bottom: 250px;
+bottom: 450px;
 left: 100px;
 color: #fff;
-font-size: 50px;
+font-size: 74px;
 font-weight: 800;
+}
+.banner-hint:after{
+  position: relative;
+  content: "";
+  width: 30%;
+  height: 10px;
+  display: block;
+  background: #fff;
+  margin-top: 100px;
+  border-radius: 15px;
 }
 .slider_section{
   width: 100%;
@@ -2506,21 +2516,30 @@ font-weight: 800;
     overflow: hidden;
   }
   .banner-hint{
-  font-size: 20px;
+  font-size: 40px;
   left: 50px;
-  bottom: 130px;
+  bottom: 230px;
   text-align: left;
   font-weight: 600;
+  }
+  .banner-hint:after{
+    width: 25%;
+    margin-top: 50px;
   }
  }
  @media (max-width: 575.98px) {
   .slider_section{
-    height: 200px;
+    height: 150px;
   }
   .banner-hint{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     left: 20px;
-    bottom: 90px;
+    bottom: 110px;
+  }
+  .banner-hint:after{
+    width: 25%;
+    margin-top: 15px;
+    height: 5px;
   }
   }
