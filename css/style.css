@@ -2256,6 +2256,7 @@ ul.lik li a:hover {
 /** Lastestnews **/
 .Lastestnews {
   padding-top: 90px ;
+  padding-bottom: 90px ;
   background: #fff;
 }
 .Lastestnews .titlepage {
