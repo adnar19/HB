@@ -28,7 +28,7 @@
 @import url(slick.css);
 @import url(jquery.fancybox.min.css);
 @import url(jquery-ui.css);
-@import url(nice-select.css);
+/* @import url(nice-select.css); */
 
 /*---------------------------------------------------------------------
     skeleton
@@ -1033,18 +1033,24 @@ nav.main-menu {
 .main-menu ul {
   margin: 0;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+
 }
 
 .main-menu ul > li {
   display: inline-block;
   position: relative;
 }
-
-.main-menu ul > li a {
+.nav-container{
+  display: flex;
+  align-items: center;
+}
+.main-menu ul > li a,.main-menu ul > li select {
   padding: 30px 23px 0 23px;
   line-height: 20px;
   font-size: 16px;
-  display: block;
+  display: inline;
   font-weight: 500;
   color: #010005;
   text-transform: uppercase;
@@ -1058,7 +1064,7 @@ nav.main-menu {
   background: #ffffff;
 }
 
-.main-menu ul > li .sub-down li a {
+.main-menu ul > li .sub-down li a,.main-menu ul > li .sub-down li select {
   color: #114c7d;
   font-size: 15px;
   text-transform: capitalize;
@@ -2419,7 +2425,7 @@ ul.lik li a:hover {
 /*categories slider */
 
 #team {
-	padding: 30px 0;
+	padding: 90px 0;
 }
 .sec-heading h6 {
 	font-family: 'Allura', cursive;
@@ -2535,7 +2541,20 @@ font-weight: 800;
   width: 100%;
   height: 70vh;
 }
-
+.nice-select.custom-select.custom-select-lg{
+  display: none!important;
+}
+.custom-select.custom-select-lg{
+  display: inline-block!important;
+  border: none;
+  padding-top: 0;
+}
+.custom-select.custom-select-lg .selected{
+  background: #ff4400!important;
+}
+.custom-select:focus{
+  box-shadow: none;
+}
 @media (max-width: 991.98px) { 
   .slider_section{
     width: 100%; 
@@ -2588,5 +2607,11 @@ margin-bottom: 10px;
   }
   .mean-last {
     display: block!important;
+}
+.nav-container{
+  display: block;
+}
+.custom-select.custom-select-lg{
+  font-size: 14px;
 }
   }
