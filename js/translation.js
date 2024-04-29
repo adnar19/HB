@@ -214,31 +214,130 @@ const dictionnaire = {
         fr:"Gérant de l'entreprise",
         en:"Business Manager",
         ar: "مدير الشركة"
+    },
+    "Hammani Nadhir":{
+        fr:"Hammani Nadhir",
+        en:"Hammani Nadhir",
+        ar:"حماني نذير"
+    },
+    "directeur financier": {
+        "fr": "Directeur financier",
+        "en": "Chief Financial Officer (CFO)",
+        "ar": "مدير مالي"
+    },
+    "Guellati Okba":{
+        fr:"Guellati Okba",
+        en:"Guellati Okba",
+        ar:"قلاتي عقبة"
+    },
+    "Directeur de production": {
+        "fr": "Directeur de production",
+        "en": "Production Manager",
+        "ar": "مدير الإنتاج"
+    },
+    "Hammani Salim":{
+        fr:"Hammani Salim",
+        en:"Hammani Salim",
+        ar:"حماني سليم"
+    },
+    "Hammani Aziz":{
+        fr:"Hammani Aziz",
+        en:"Hammani Aziz",
+        ar:"حماني عزيز"
+    },
+    "Responsable des ventes": {
+        "fr": "Responsable des ventes",
+        "en": "Sales Manager",
+        "ar": "مدير المبيعات"
+    },
+    "positions gps": {
+        "fr": "Positions GPS",
+        "en": "GPS Positions",
+        "ar": "مواقع GPS"
+    },
+    "description gps": {
+        "fr": "Découvrez la Localisation de l'entreprise ainsi que celle du showroom.",
+        "en": "Discover the Location of the company as well as the showroom.",
+        "ar": "اكتشف موقع الشركة وكذلك صالة العرض."
+    },
+    "notre":{
+        fr:"Notre",
+        en:"Our",
+        ar:""
+    },
+    "vision": {
+        "fr": "Vision",
+        "en": "Vision",
+        "ar":"تطلعاتنا"
+    },
+    "description vision": {
+        "fr": "Nous croyons que le développement et la technologie moderne sont les deux éléments essentiels du succès et de la différenciation. Nous investissons continuellement dans ce domaine pour atteindre le leadership dans la fabrication d'ustensiles de cuisine sur le marché algérien, et nous aspirons à étendre cette position de leader aux marchés arabes et africains.",
+        "en": "We believe that development and modern technology are the two essential elements of success and differentiation. We continuously invest in this field to achieve leadership in the manufacturing of kitchen utensils in the Algerian market, and we aspire to extend this leadership position to the Arab and African markets.",
+        "ar": "نحن نؤمن بأن التطور والتكنولوجيا الحديثة هما العنصران الأساسيان للنجاح والتميز. نحن نستثمر باستمرار في هذا المجال لتحقيق القيادة في تصنيع أواني المطبخ في السوق الجزائري ، ونطمح إلى توسيع هذا الموقع الريادي إلى الأسواق العربية والإفريقية."
+    },
+    "contactez-nous": {
+        "fr": "Contactez-nous",
+        "en": "Contact Us",
+        "ar": "اتصل بنا"
+    },
+    "localisation gps": {
+        "fr": "Localisation GPS",
+        "en": "GPS Location",
+        "ar": "الموقع على  GPS"
+    },
+    "gamme de produits": {
+        "fr": "Gamme de Produits",
+        "en": "Product Range",
+        "ar": "مجموعة المنتجات"
+    },
+    "liens utils": {
+        "fr": "Liens Utiles",
+        "en": "Useful Links",
+        "ar": "روابط مهمة"
+    },
+    "adresses": {
+        "fr": "Adresses",
+        "en": "Addresses",
+        "ar": "العناوين"
+    },
+    "adresse entreprise": {
+        "fr": "34, ILots 216, ElDjebbas, Djemila, Sétif.",
+        "en": "34, ILots 216, ElDjebbas, Djemila, Sétif.",
+        "ar": "34 حي 216 مسكن, جميلة, سطيف"
+    },
+    "adresse showroom": {
+        "fr": "Rue Rachid Ammar, Cité Bahlouli, El Eulma.",
+        "en": "Rue Rachid Ammar, Cité Bahlouli, El Eulma.",
+        "ar": "شارع رشيد عمار، حي بهلولي، العلمة."
+    },
+    "copyrights": {
+        "fr": "Tous les droits sont réservés ® HAMMANI BROTHERS",
+        "en": "All rights reserved ® HAMMANI BROTHERS",
+        "ar": "جميع الحقوق محفوظة ® HAMMANI BROTHERS"
     }
+
 }
 
 let selector = document.getElementById('language-selector')
-let nodes = document.querySelectorAll('[data-lang]');
+
 
 selector.addEventListener("change", (e)=>{
-    localStorage.setItem("lang",e.target.value)
     translation(e.target.value)
-    
+    localStorage.setItem("lang",e.target.value)
 })
 
 document.addEventListener('DOMContentLoaded',()=>{
     const language = localStorage.getItem("lang")||"fr";
-    console.log(language);
     translation(language)
     selector.value= language
 })
 
 const translation =(langue)=>{
-    for (let index = 0; index < nodes.length; index++) {
-        let key = nodes[index].getAttribute('data-lang');
-        nodes[index].innerHTML = dictionnaire[key][langue]
-        
-    }
+    const nodes = document.querySelectorAll('[data-lang]');
+    nodes.forEach((element)=>{
+        const translationKey= element.getAttribute('data-lang');
+        element.textContent=dictionnaire[translationKey][langue]
+    })
     document.dir = langue === "ar" ? "rtl" : "ltr";
 }
 
