@@ -314,6 +314,41 @@ const dictionnaire = {
         "fr": "Tous les droits sont réservés ® HAMMANI BROTHERS",
         "en": "All rights reserved ® HAMMANI BROTHERS",
         "ar": "جميع الحقوق محفوظة ® HAMMANI BROTHERS"
+    },
+    "code produit": {
+        "fr": "Code Produit :",
+        "en": "Product Code :",
+        "ar": "كود المنتج :"
+    },
+    "poids": {
+        "fr": "Poids :",
+        "en": "Weight :",
+        "ar": "الوزن :"
+    },
+    "caisse": {
+        "fr": "Caisse :",
+        "en": "Box :",
+        "ar": "صندوق :"
+    },
+    "Qt crt": {
+        "fr": "Qté crt :",
+        "en": "Qty per carton :",
+        "ar": "الكمية في الكرتون :"
+    },
+    "Poids crt kg": {
+        "fr": "Poids du carton en kg :",
+        "en": "Carton Weight in kg :",
+        "ar": "وزن الكرتون بالكيلوغرام :"
+    },
+    "Volume Emballage": {
+        "fr": "Volume de l'emballage :",
+        "en": "Packaging Volume :",
+        "ar": "حجم التغليف :"
+    },
+    "Volume Pièce": {
+        "fr": "Volume de la pièce",
+        "en": "Piece Volume",
+        "ar": "حجم القطعة"
     }
 
 }
