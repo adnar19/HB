@@ -90,6 +90,11 @@ const dictionnaire = {
         "en": "Precision-designed by HB Industry, merging the elegance of plastic with the robustness of steel.",
         "ar": "مصممة بدقة من قبل HB Industry ، تجمع بين أناقة البلاستيك وقوة الفولاذ."
     },
+    "Roue de Chariot et Passoire Lavabo": {
+        "fr": "Roue de Chariot et Passoire Lavabo",
+        "en": "Cart Wheel and Sink Strainer",
+        "ar": "عجلة العربة ومصفاة بالوعة"
+    },
     "Roue De Chariot": {
         "fr": "Roue De Chariot",
         "en": "Cart Wheel",
