@@ -255,6 +255,16 @@ const dictionnaire = {
         "en": "Sales Manager",
         "ar": "مدير المبيعات"
     },
+    "Hammani Lahcen":{
+        fr:"Hammani Lahcen",
+        en:"Hammani Lahcen",
+        ar:"حماني لحسن"
+    },
+    "Agent d'importation": {
+        "fr": "Agent d'importation",
+        "en": "Import Agent",
+        "ar": "وكيل الاستيراد"
+    },
     "positions gps": {
         "fr": "Positions GPS",
         "en": "GPS Positions",
