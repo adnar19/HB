@@ -354,6 +354,11 @@ const dictionnaire = {
         "fr": "Volume de la pièce",
         "en": "Piece Volume",
         "ar": "حجم القطعة"
+    },
+    "Bras INOX": {
+        "fr": "Bras INOX",
+        "en": "Stainless Steel Arm",
+        "ar": "ذراع فولاذ"
     }
 
 }
