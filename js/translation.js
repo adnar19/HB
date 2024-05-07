@@ -369,6 +369,16 @@ const dictionnaire = {
         "fr": "Bras INOX",
         "en": "Stainless Steel Arm",
         "ar": "ذراع فولاذ"
+    },
+    "Bras Poele": {
+        "fr": "Bras Poele",
+        "en": "Pan Handle",
+        "ar": "مقبض مقلاة"
+    },
+    "Poignet Couvert": {
+        "fr": "Poignet Couvert",
+        "en": "Covered Handle",
+        "ar": "مقبض مغطى"
     }
 
 }
