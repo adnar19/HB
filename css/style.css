@@ -1773,7 +1773,7 @@ ul.sociel_link li a {
   height: 10px;
   display: block;
   margin: 0 auto;
-  background: #000;
+  background: #ff4400;
 }
 
 .title span {
@@ -2616,4 +2616,28 @@ margin-bottom: 10px;
 .custom-select.custom-select-lg{
   font-size: 14px;
 }
+  }
+
+  :lang(en)[dir="rtl"]{
+    .top-box .sociel_link{
+      float: right;
+    }
+    .top-box p{
+      float: left;
+    }
+    .nav-header{
+      justify-content: space-between;
+    }
+    .nav-container,.banner-hint{
+      justify-content: end;
+    }
+    .banner-hint:last-child:after{
+      left: -70%;
+    }
+    .yellow-box,.contact{
+      text-align: right;
+    }
+    .team-slider{
+      direction: ltr;
+    }
   }
