@@ -361,9 +361,9 @@ const dictionnaire = {
         "ar": "حجم التغليف :"
     },
     "Volume Pièce": {
-        "fr": "Volume de la pièce",
-        "en": "Piece Volume",
-        "ar": "حجم القطعة"
+        "fr": "Volume de la pièce :",
+        "en": "Piece Volume :",
+        "ar": "حجم القطعة :"
     },
     "Bras INOX": {
         "fr": "Bras INOX",
