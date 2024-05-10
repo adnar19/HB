@@ -32,95 +32,95 @@
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   <style>
-      .card {
-         margin-top: 25px;
-         border-radius: 20px;
-         border: none;
-         box-shadow: #ddd 0px 0px 8px 4px;
-      }
-
-
-      .card-title {
-         font-weight: 800;
-      }
-
-      .card-title span:last-child {
-         color: #FF4400;
-      }
-
-      .titlepage h2 {
-         color: #FF4400;
-         font-weight: 800;
-      }
-
-      .swiper {
-         width: 100%;
-         height: 100%;
-      }
-
-      .swiper-slide {
-         text-align: center;
-         font-size: 18px;
-         background: #fff;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-      }
-
-      .swiper-slide img {
-         display: block;
-         width: 100%;
-         height: 100%;
-         object-fit: cover;
-      }
-
-
-      .swiper {
-         width: 100%;
-         height: 300px;
-         margin-left: auto;
-         margin-right: auto;
-      }
-
-      .swiper-slide {
-         background-size: cover;
-         background-position: center;
-      }
-
-      .mySwiper2 {
-         height: 80%;
-         width: 100%;
-         border-radius: 20px 20px 0 0;
-      }
-
-      .mySwiper {
-         height: 20%;
-         box-sizing: border-box;
-         padding: 10px 7px;
-      }
-
-      .mySwiper .swiper-slide {
-         width: 25%;
-         height: 100%;
-         opacity: 0.4;
-      }
-
-      .mySwiper .swiper-slide-thumb-active {
-         opacity: 1;
-      }
-
-      .swiper-slide img {
-         display: block;
-         width: 100%;
-         height: 100%;
-         object-fit: cover;
-      }
-      .swiper-button-next,.swiper-button-prev{
-         color: #000;
-         opacity: 0.7;
-      }
-   </style>
+      <style>
+         .card {
+            margin-top: 25px;
+            border-radius: 20px;
+            border: none;
+            box-shadow: #ddd 0px 0px 8px 4px;
+         }
+   
+   
+         .card-title {
+            font-weight: 800;
+         }
+   
+         .card-title span:last-child {
+            color: #FF4400;
+         }
+   
+         .titlepage h2 {
+            color: #FF4400;
+            font-weight: 800;
+         }
+   
+         .swiper {
+            width: 100%;
+            height: 100%;
+         }
+   
+         .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+   
+         .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+   
+   
+         .swiper {
+            width: 100%;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+         }
+   
+         .swiper-slide {
+            background-size: cover;
+            background-position: center;
+         }
+   
+         .mySwiper2 {
+            height: 80%;
+            width: 100%;
+            border-radius: 20px 20px 0 0;
+         }
+   
+         .mySwiper {
+            height: 20%;
+            box-sizing: border-box;
+            padding: 10px 7px;
+         }
+   
+         .mySwiper .swiper-slide {
+            width: 25%;
+            height: 100%;
+            opacity: 0.4;
+         }
+   
+         .mySwiper .swiper-slide-thumb-active {
+            opacity: 1;
+         }
+   
+         .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+         }
+         .swiper-button-next,.swiper-button-prev{
+            color: #000!important;
+            opacity: 0.7;
+         }
+      </style>
 </head>
 <!-- body -->
 
@@ -141,6 +141,10 @@
                      <div class="top-box">
                         <ul class="sociel_link">
                            <li> <a href="#" class="text-white"><i><img src="icon/fb.png" alt="logo" /></i></a></li>
+                           <li> <a href="#" class="text-white"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                           <li> <a href="#" class="text-white"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                           <li> <a href="#" class="text-white"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                           <li> <a href="#" class="text-white"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         </ul>
                      </div>
                   </div>
@@ -153,7 +157,7 @@
             </div>
          </div>
          <div class="container">
-            <div class="row">
+            <div class="row nav-header">
                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                   <div class="full">
                      <div class="center-desk">
@@ -166,16 +170,16 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                              <li class="active"> <a href="#" data-lang="accueil">Acceuil</a> </li>
-                              <li> <a href="#about" data-lang="a propos">A propos</a> </li>
-                              <li> <a href="#categories" data-lang="categories">Catégories</a> </li>
+                              <li class="active"> <a href="index.html" data-lang="accueil">Acceuil</a> </li>
+                              <li> <a href="index.html#about" data-lang="a propos">A propos</a> </li>
+                              <li> <a href="index.html#categories" data-lang="categories">Catégories</a> </li>
                               <!-- <li> <a href="#catalogue">Catalogue</a> </li> -->
                               <li> <a href="#contact" data-lang="contact">Contact</a> </li>
                               <li><select class="custom-select custom-select-lg" id="language-selector">
-                                    <option value="fr" selected>Français</option>
-                                    <option value="en">English</option>
-                                    <!-- <option value="ar">العربية</option> -->
-                                 </select></li>
+                                 <option value="fr" selected>Français</option>
+                                 <option value="en">English</option>
+                                 <option value="ar">العربية</option>
+                               </select></li>
 
                            </ul>
                         </nav>
@@ -399,40 +403,41 @@
             <div class="row">
                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                   <div class="contact">
-                     <h3>contactez nous</h3>
+                     <h3 data-lang="contactez-nous">contactez-nous</h3>
                      <ul class="lik">
-                        <li><i class="fa fa-phone-square" aria-hidden="true"></i> 036 76 27 53</li>
-                        <li><i class="fa fa-phone" aria-hidden="true"></i> 05 50 74 11 04</li>
-                        <li><i class="fa fa-phone-square" aria-hidden="true"></i> 06 57 88 43 59</li>
+                        <li><i class="fa fa-phone-square" aria-hidden="true"></i> <span>036762753</span></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> 0550741104</li>
+                        <li><i class="fa fa-phone-square" aria-hidden="true"></i> 0657884359</li>
                      </ul>
                   </div>
                </div>
                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                   <div class="contact">
-                     <h3>Liens utils</h3>
+                     <h3 data-lang="liens utils">Liens utils</h3>
                      <ul class="lik">
-                        <li> <a href="#"><i class="fa fa-facebook-official"></i> Hammani Brothers</a></li>
-                        <li> <a href="https://maps.app.goo.gl/ubdhpTndwjpA86YT8"><i class="fa fa-map-marker"
-                                 aria-hidden="true"></i> Localisation Gps</a></li>
-                        <li> <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Gamme de Produits</a>
+                        <li> <i class="fa fa-facebook-official"></i><a href="#"> Hammani Brothers</a></li>
+                        <li><i class="fa fa-map-marker"
+                           aria-hidden="true"></i> <a href="https://maps.app.goo.gl/ubdhpTndwjpA86YT8" data-lang="localisation gps"> Localisation Gps</a></li>
+                        <!-- <li><i class="fa fa-shopping-cart" aria-hidden="true"></i> <a href="products.html" data-lang="gamme de produits"> Gamme de Produits</a> -->
                         </li>
                      </ul>
                   </div>
                </div>
-               <div class="col-xl-4 col-lg-4 col-md-12">
+               <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                   <div class="contact">
-                     <h3>Adresses</h3>
+                     <h3 data-lang="adresses">Adresses</h3>
                      <ul class="lik">
                         <li><a href="mailto:Hammanibrothers11@gmail.com"><i class="fa fa-envelope"
                                  aria-hidden="true"></i> Hammanibrothers11@gmail.com</a></li>
-                        <li><i class="fa fa-map-o" aria-hidden="true"></i> 34, ILots 216, ElDjebbas, Djemila,Sétif.</li>
-                        <li><i class="fa fa-map" aria-hidden="true"></i> Rue Rachid Ammar, Cité Bahlouli, El Eulma.</li>
+                        <li><i class="fa fa-map-o" aria-hidden="true"></i> <span data-lang="adresse entreprise"> 34, ILots 216, ElDjebbas, Djemila,Sétif.</span></li>
+                        <li><i class="fa fa-map" aria-hidden="true"></i> <span data-lang="adresse showroom"> Rue Rachid Ammar, Cité Bahlouli, El Eulma.</span></li>
+                     </ul>
                   </div>
                </div>
             </div>
          </div>
          <div class="copyright">
-            <p>Tous les droits sont réservés ® HAMMANI BROTHERS</p>
+            <p data-lang="copyrights">Tous les droits sont réservés ® HAMMANI BROTHERS</p>
          </div>
 
       </div>
