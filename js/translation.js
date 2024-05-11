@@ -379,6 +379,16 @@ const dictionnaire = {
         "fr": "Poignet Couvert",
         "en": "Covered Handle",
         "ar": "مقبض مغطى"
+    },
+    "entreprise":{
+        fr:"Entreprise",
+        en:"Company",
+        ar:"المصنع"
+    },
+    "showroom":{
+        fr:"Showroom",
+        en:"Showroom",
+        ar:"صالة العرض"
     }
 
 }
