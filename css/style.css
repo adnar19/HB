@@ -1743,6 +1743,10 @@ ul.sociel_link li a {
 .yellow_bold {
   color: #ff4400;
 }
+.yellow_bold2 {
+  color: #ff4400;
+  text-decoration: underline;
+}
 
 /** whyschose section **/
 
