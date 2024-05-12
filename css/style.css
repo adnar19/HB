@@ -2634,9 +2634,6 @@ margin-bottom: 10px;
     .top-box p{
       float: left;
     }
-    .nav-header{
-      justify-content: space-between;
-    }
     .nav-container,.banner-hint{
       justify-content: end;
     }
@@ -2647,7 +2644,7 @@ margin-bottom: 10px;
       text-align: right;
     }
     .team-slider,.mySwiper,.mySwiper2{
-      direction: ltr;
+      direction: ltr!important;
     }
     .card-body{
       text-align: right;
