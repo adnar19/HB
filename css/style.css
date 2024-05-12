@@ -343,7 +343,9 @@ a.readmore_bt {
 /*----------------------------
     preloader area
 ----------------------------*/
-
+.nav-header{
+  justify-content: space-between;
+}
 .loader_bg {
   position: fixed;
   z-index: 9999999;
@@ -1048,13 +1050,13 @@ nav.main-menu {
   align-items: center;
 }
 .main-menu ul > li a,.main-menu ul > li select {
-  padding: 30px 23px 0 23px;
+  padding: 30px 23px 0 0;
   line-height: 20px;
-  font-size: 20px;
+  font-size: 18px;
   display: inline;
   font-weight: 500;
   color: #010005;
-  text-transform: uppercase;
+  text-transform: uppercase;  
 }
 
 .main-menu ul li:last-child a {
