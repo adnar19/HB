@@ -262,7 +262,9 @@ button {
   border-left: solid #38c8a8 10px;
   padding-left: 15px;
 }
-
+.nav-header{
+  justify-content: space-between;
+}
 .main_heading h2 strong {
   background: #38c8a8;
   color: #fff;
@@ -1048,7 +1050,7 @@ nav.main-menu {
   align-items: center;
 }
 .main-menu ul > li a,.main-menu ul > li select {
-  padding: 30px 23px 0 23px;
+  padding: 30px 23px 0 0;
   line-height: 20px;
   font-size: 20px;
   display: inline;
@@ -1743,9 +1745,13 @@ ul.sociel_link li a {
 .yellow_bold {
   color: #ff4400;
 }
+.gps-title{
+  background: #ff4400;
+  border-radius: .5rem .5rem 0 0;
+}
 .yellow_bold2 {
-  color: #ff4400;
-  text-decoration: underline;
+  color: #fff;
+  font-weight: 600;
 }
 
 /** whyschose section **/
@@ -2522,14 +2528,20 @@ ul.lik li a:hover {
 		top: 3px;
 	}
 }
-
+.hint{
+  position: relative;
+  top: -100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .banner-hint{
 position: relative;
-bottom: 450px;
-left: 100px;
 color: #fff;
 font-size: 74px;
 font-weight: 800;
+text-align: center;
 }
 .banner-hint:last-child:after{
   position: relative;
@@ -2540,6 +2552,8 @@ font-weight: 800;
   background: #fff;
   margin-top: 100px;
   border-radius: 15px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .slider_section{
   width: 100%;
@@ -2632,14 +2646,12 @@ margin-bottom: 10px;
     .top-box p{
       float: left;
     }
-    .nav-header{
-      justify-content: space-between;
-    }
-    .nav-container,.banner-hint{
+    .nav-container{
       justify-content: end;
     }
     .banner-hint:last-child:after{
-      left: -70%;
+      left: -50%;
+        transform: translateX(50%);
     }
     .yellow-box,.contact{
       text-align: right;

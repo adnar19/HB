@@ -48,12 +48,12 @@ const dictionnaire = {
     "Volants Cocotte": {
         "fr": "Volants Cocotte",
         "en": "Cocotte Wheels",
-        "ar": "عجلات القدر"
+        "ar": "مقبض طنجرة الضغط "
     },
     "description volants cocotte": {
-        "fr": "Conçus avec précision par HB industrie, fusionnent l'élégance du plastique et la robustesse de l'acier.",
-        "en": "Precision-designed by HB Industry, merging the elegance of plastic with the robustness of steel.",
-        "ar": "صُممت بدقة من قبل شركة HB الصناعية ، مما يجمع بين أناقة البلاستيك وقوة الفولاذ."
+        "fr": "Minutieusement conçue par HB Industrie pour allier l'élégance du plastique à la durabilité de l'acier, elle s'adapte à toutes les casseroles du fabricant, ce qui en fait un composant de remplacement idéal pour continuer à utiliser confortablement votre autocuiseur. Il est compatible avec toutes les capacités 4/6/8/10/12/14….RÉSISTANT À LA CHALEUR - Fabriqué en bakélite de haute qualité, ce bouton offre durabilité et résistance à la chaleur, ce qui garantit une performance durable et sûre. Le matériau en bakélite est non seulement résistant à la chaleur, mais aussi confortable au toucher, ce qui améliore l'expérience d'utilisation quotidienne.",
+        "en": "Meticulously designed by HB Industrie to combine the elegance of plastic with the durability of steel, it fits all the manufacturer’s pots, making it an ideal replacement component to continue using your pressure cooker comfortably. It is compatible with all capacities 4/6/8/10/12/14…. HEAT RESISTANT - Made from high-quality Bakelite, this knob offers durability and heat resistance, ensuring long-lasting and safe performance. The Bakelite material is not only heat resistant but also comfortable to touch, enhancing the daily use experience.",
+        "ar": "تم تصميمه بدقة من قبل شركة HB Idustrie ليجمع بين اناقة البلاستيك و متانة الفولاذ و يناسب جميع اواني المصنعة مما يجعله مكونا بديلا مثاليا لمواصلة استخدام طنجرة الضغط بشكل مريح. وهو متوافق مع جميع السعات 4/6/8/10/12/14... مقاوم للحرارة مصنوع من الباكليت عالي الجودة يوفر هذا المقبض المتانة و مقاومة الحرارة مما يضمن اداء امنا ويدوم طويلا. مادة الباكليت ليست مقاومة للحرارة فحسب, ولكنها ايضا مريحة عند اللمس, مما يحسن تجربة الاستخدام اليومية."
     },
     "Voir Produits": {
         "fr": "Voir Produits",
@@ -83,12 +83,12 @@ const dictionnaire = {
     "Bras Casserole": {
         "fr": "Bras Casserole",
         "en": "Casserole Arms",
-        "ar": "أذرع القدر"
+        "ar": "أذرع طنجرة الضغط"
     },
     "description bras casserole": {
-        "fr": "Conçus avec précision par HB Industrie, fusionnent l'élégance du plastique et la robustesse de l'acier.",
-        "en": "Precision-designed by HB Industry, merging the elegance of plastic with the robustness of steel.",
-        "ar": "مصممة بدقة من قبل HB Industry ، تجمع بين أناقة البلاستيك وقوة الفولاذ."
+        "fr": "Conçus avec précision par HB Industrie, fusionnent l'élégance du plastique et la robustesse de l'acier résistant à la chaleur - Fabriquée en bakélite de haute qualité, cette poignée offre durabilité et résistance à la chaleur, garantissant des performances sûres et durables",
+        "en": "Precisely designed by HB Industrie, they merge the elegance of plastic with the robustness of heat-resistant steel. Made from high-quality Bakelite, this handle offers durability and heat resistance, ensuring safe and long-lasting performance.",
+        "ar": "مصممة بدقة من قبل HB Industry ، تجمع بين أناقة البلاستيك وقوة الفولاذ المقاوم للحرارة - مصنوع من الباكليت عالي الجودة, يوفر هذا الذراع المتانة ومقاومة الحرارة مما يضمن اداء امنا ويدوم طويلا."
     },
     "Passoire Lavabo": {
         "fr": "Passoire Lavabo",
@@ -191,9 +191,14 @@ const dictionnaire = {
         "ar": "نحن ؟"
     },
     "description a propos": {
-        "fr": "La société Cuicul HB Phenol a été fondée à El Eulma en Algérie au début du XXe siècle, où elle se limitait initialement à la vente en gros. Par la suite, elle est devenue un fabricant majeur d'ustensiles de cuisine. Cuicul HB Phenol est une entreprise familiale dont le succès repose sur une histoire, un parcours et des valeurs. C'est la première entreprise à avoir investi dans ce domaine, en s'appuyant sur des talents algériens, qu'ils soient ingénieurs, administrateurs ou artisans, et en s'engageant dans leur formation continue pour les amener, ainsi que l'entreprise, à des niveaux avancés de développement et à la production de produits de haute qualité conformes aux normes internationales.",
-        "en": "The Cuicul HB Phenol company was founded in El Eulma, Algeria, in the early 20th century, initially focusing on wholesale trade. Later, it became a major manufacturer of kitchen utensils. Cuicul HB Phenol is a family-owned business whose success is based on history, journey, and values. It was the first company to invest in this field, relying on Algerian talents, whether engineers, administrators, or artisans, and committing to their continuous training to bring them, as well as the company, to advanced levels of development and production of high-quality products that meet international standards.",
-        "ar": 'تاسست شركة كويكول اش بي فينول "CUICUL HB PHENOL" في مدينة العلمة بالجزائر في مطلع القرن العشرين حيث كان يقتصر نشاطها على البيع بالجملة فقط ومن ثم تحولت الشركة الى انتاج اهم ادوات المطبخ. كويكول اش بي فينول "CUICUL HB PHENOL" هي مجموعة عائلة التي بنيت على قصة و مسار وقيم ساهمت في نجاحها وتعتبر اول شركة استثمرت في هذا المجال حيث تعتمد على ايادي جزائرية من مهندسين واداريين و حرفيين تعمل على تدريبهم باستمرار للوصول بهم و بالشركة الى مستويات متقدمة من تطور و منتجات عالية الجودة ومطابقة للمواصفات العالمية'
+        "fr": "La société Cuicul HB Phenol a été fondée à El Eulma en Algérie au début du XXe siècle, où elle se limitait initialement à la vente en gros. Par la suite, elle est devenue un fabricant majeur d'ustensiles de cuisine.",
+        "en": "The Cuicul HB Phenol company was founded in El Eulma, Algeria, in the early 20th century, initially focusing on wholesale trade. Later, it became a major manufacturer of kitchen utensils.",
+        "ar": 'تاسست شركة كويكول اش بي فينول "CUICUL HB PHENOL" في مدينة العلمة بالجزائر في مطلع القرن العشرين حيث كان يقتصر نشاطها على البيع بالجملة فقط ومن ثم تحولت الشركة الى انتاج اهم ادوات المطبخ.'
+    },
+    "description a propos 2": {
+        "fr": "Cuicul HB Phenol est une entreprise familiale dont le succès repose sur une histoire, un parcours et des valeurs. C'est la première entreprise à avoir investi dans ce domaine, en s'appuyant sur des talents algériens, qu'ils soient ingénieurs, administrateurs ou artisans, et en s'engageant dans leur formation continue pour les amener, ainsi que l'entreprise, à des niveaux avancés de développement et à la production de produits de haute qualité conformes aux normes internationales.",
+        "en": "Cuicul HB Phenol is a family-owned business whose success is based on history, journey, and values. It was the first company to invest in this field, relying on Algerian talents, whether engineers, administrators, or artisans, and committing to their continuous training to bring them, as well as the company, to advanced levels of development and production of high-quality products that meet international standards.",
+        "ar": ' كويكول اش بي فينول "CUICUL HB PHENOL" هي مجموعة عائلة التي بنيت على قصة و مسار وقيم ساهمت في نجاحها وتعتبر اول شركة استثمرت في هذا المجال حيث تعتمد على ايادي جزائرية من مهندسين واداريين و حرفيين تعمل على تدريبهم باستمرار للوصول بهم و بالشركة الى مستويات متقدمة من تطور و منتجات عالية الجودة ومطابقة للمواصفات العالمية'
     },
     "Conseil d'": {
         "fr": "Conseil",
