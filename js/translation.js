@@ -53,7 +53,7 @@ const dictionnaire = {
     "description volants cocotte": {
         "fr": "Minutieusement conçue par HB Industrie pour allier l'élégance du plastique à la durabilité de l'acier, elle s'adapte à toutes les casseroles du fabricant, ce qui en fait un composant de remplacement idéal pour continuer à utiliser confortablement votre autocuiseur. Il est compatible avec toutes les capacités 4/6/8/10/12/14….RÉSISTANT À LA CHALEUR - Fabriqué en bakélite de haute qualité, ce bouton offre durabilité et résistance à la chaleur, ce qui garantit une performance durable et sûre. Le matériau en bakélite est non seulement résistant à la chaleur, mais aussi confortable au toucher, ce qui améliore l'expérience d'utilisation quotidienne.",
         "en": "Meticulously designed by HB Industrie to combine the elegance of plastic with the durability of steel, it fits all the manufacturer’s pots, making it an ideal replacement component to continue using your pressure cooker comfortably. It is compatible with all capacities 4/6/8/10/12/14…. HEAT RESISTANT - Made from high-quality Bakelite, this knob offers durability and heat resistance, ensuring long-lasting and safe performance. The Bakelite material is not only heat resistant but also comfortable to touch, enhancing the daily use experience.",
-        "ar": "تم تصميمه بدقة من قبل شركة HB Idustrie ليجمع بين اناقة البلاستيك و متانة الفولاذ و يناسب جميع اواني المصنعة مما يجعله مكونا بديلا مثاليا لمواصلة استخدام طنجرة الضغط بشكل مريح. وهو متوافق مع جميع السعات 4/6/8/10/12/14... مقاوم للحرارة مصنوع من الباكليت عالي الجودة يوفر هذا المقبض المتانة و مقاومة الحرارة مما يضمن اداء امنا ويدوم طويلا. مادة الباكليت ليست مقاومة للحرارة فحسب, ولكنها ايضا مريحة عند اللمس, مما يحسن تجربة الاستخدام اليومية."
+        "ar": "تم تصميمه بدقة من قبل شركةHB Industrieليجمع بين اناقة البلاستيك و متانة الفولاذ و يناسب جميع اواني المصنعة مما يجعله مكونا بديلا مثاليا لمواصلة استخدام طنجرة الضغط بشكل مريح. وهو متوافق مع جميع السعات 4/6/8/10/12/14... مقاوم للحرارة مصنوع من الباكليت عالي الجودة يوفر هذا المقبض المتانة و مقاومة الحرارة مما يضمن اداء امنا ويدوم طويلا. مادة الباكليت ليست مقاومة للحرارة فحسب, ولكنها ايضا مريحة عند اللمس, مما يحسن تجربة الاستخدام اليومية."
     },
     "Voir Produits": {
         "fr": "Voir Produits",
@@ -68,7 +68,7 @@ const dictionnaire = {
     "description bras cocotte": {
         "fr": "Conçus avec minutie par HB Industrie, marient l'élégance du plastique à la robustessede l'acier, offrant ainsi une alliance parfaite entre style et durabilité.",
         "en": "Meticulously designed by HB Industry, they marry the elegance of plastic with the robustness of steel, offering a perfect blend of style and durability.",
-        "ar": "مُصممة بعناية فائقة من قبل شركة HB Industrie ، تجمع بين أناقة البلاستيك وقوة الفولاذ ، مما يوفر مزيجًا مثاليًا من الأناقة والمتانة."
+        "ar": "مصممة بدقة من قبل HB Industry ، تجمع بين أناقة البلاستيك وقوة الفولاذ المقاوم للحرارة - مصنوع من الباكليت عالي الجودة, يوفر هذا الذراع المتانة ومقاومة الحرارة مما يضمن اداء امنا ويدوم طويلا."
     },
     "Accessoires Poele": {
         "fr": "Accessoires Poele",
@@ -88,7 +88,7 @@ const dictionnaire = {
     "description bras casserole": {
         "fr": "Conçus avec précision par HB Industrie, fusionnent l'élégance du plastique et la robustesse de l'acier résistant à la chaleur - Fabriquée en bakélite de haute qualité, cette poignée offre durabilité et résistance à la chaleur, garantissant des performances sûres et durables",
         "en": "Precisely designed by HB Industrie, they merge the elegance of plastic with the robustness of heat-resistant steel. Made from high-quality Bakelite, this handle offers durability and heat resistance, ensuring safe and long-lasting performance.",
-        "ar": "مصممة بدقة من قبل HB Industry ، تجمع بين أناقة البلاستيك وقوة الفولاذ المقاوم للحرارة - مصنوع من الباكليت عالي الجودة, يوفر هذا الذراع المتانة ومقاومة الحرارة مما يضمن اداء امنا ويدوم طويلا."
+        "ar": 'مصممة بدقة من قبل "HB Industry" ، تجمع بين أناقة البلاستيك وقوة الفولاذ المقاوم للحرارة - مصنوع من الباكليت عالي الجودة, يوفر هذا الذراع المتانة ومقاومة الحرارة مما يضمن اداء امنا ويدوم طويلا.'
     },
     "Passoire Lavabo": {
         "fr": "Passoire Lavabo",
@@ -103,7 +103,7 @@ const dictionnaire = {
     "description roue de chariot": {
         "fr": "Roues solides en acier inoxydable, résistantes aux températures élevées car fabriquées dans un matériau incombustible, un type de plastique appelé bakélite, utilisé pour les boîtes, les outils, les fours et les équipements industriels. Remplacement silencieux des roues et utilisation garantie dans votre maison et votre lieu de travail. Conçu avec soin par HB penoul.",
         "en": "Solid stainless steel wheels, resistant to high temperatures as they are made of a non-combustible material, a type of plastic called bakelite, used for boxes, tools, ovens, and industrial equipment. Silent replacement of wheels and guaranteed use in your home and workplace. Carefully designed by HB Penoul.",
-        "ar": "عجلات من الفولاذ المقاوم للصدأ الصلبة ، مقاومة لدرجات الحرارة العالية حيث يتم تصنيعها من مادة غير قابلة للاشتعال ، وهي نوع من البلاستيك يُسمى الباكيليت ، والذي يستخدم في الصناديق والأدوات والأفران والمعدات الصناعية. استبدال صامت للعجلات واستخدام مضمون في منزلك ومكان عملك. مصمم بعناية من قبل HB Penoul."
+        "ar": "عجلات من الفولاذ المقاوم للصدأ الصلبة ، مقاومة لدرجات الحرارة العالية حيث يتم تصنيعها من مادة غير قابلة للاشتعال ، وهي نوع من البلاستيك يُسمى الباكيليت ، والذي يستخدم في الصناديق والأدوات والأفران والمعدات الصناعية. استبدال صامت للعجلات واستخدام مضمون في منزلك ومكان عملك. مصمم بعناية من قبل HB Phenol."
     },
     "Passoire Lavabo": {
         "fr": "Passoire Lavabo",
