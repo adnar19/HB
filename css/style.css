@@ -2661,6 +2661,9 @@ margin-bottom: 10px;
     .team-slider,.mySwiper,.mySwiper2{
       direction: ltr!important;
     }
+    .info-area p {
+      direction: rtl!important;
+    }
     .card-body{
       text-align: right;
     }
